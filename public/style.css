@@ -1,0 +1,70 @@
+.brand-content{
+    color:rgb(15, 56, 68);
+}
+
+.is-active{
+    color:rgb(15, 56, 68);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.not-active{
+    color:rgb(18, 39, 46);
+    font-weight: bold;
+}
+
+.image-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 20px;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.image-card__photo-wrapper{
+    position: relative;
+}
+
+.image-card__photo-details{
+    color:rgb(15, 56, 68);
+    position: absolute;
+    border-bottom-left-radius: 5px;
+    padding-bottom: 8px;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    bottom: 0;
+    background-color:rgba(255, 255, 255, 0.6);
+    border-top: 1px solid lightgray;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: space-between;
+    display: flex;
+}
+
+.image-card__photo-likes{
+    color:rgb(15, 56, 68);
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.6);
+    top: 10px;
+    left:10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+.image-card__photo-likes:hover{
+    color: rgb(18, 88, 108);
+}
+
+.image-card__photo-likes:active{
+    color: rgb(50, 18, 33);
+}
+
+.image-card__photo-likes i{
+ font-size: 30px;
+}
+
